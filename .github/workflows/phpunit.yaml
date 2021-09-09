@@ -7,9 +7,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: shivammathur/setup-php@v2
-      with:
-        php-version: '7.4'
-    - uses: php-actions/composer@v5 # or alternative dependency management
-    - uses: php-actions/phpunit@v3
+      - uses: actions/checkout@v1
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.3'
+          tools: composer, phpunit
+
+      - name: Check coding standards
+        run: |
+          composer update && ./vendor/bin/phpunit tests
