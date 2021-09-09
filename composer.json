@@ -1,9 +1,17 @@
 {
     "name": "gahmohan/random-wait-message",
+    "version": "dev-master",
     "description": "A simple package to get random wait message",
+    "authors": [
+        {
+            "name": "Gaj Mohan",
+            "email": "m.gajalakshan@gmail.com",
+            "homepage": "https://gajmohan.dev"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "gahMohan\\RandomWaitMEssage\\": "src/RandomWaitMessage"
+            "RandomWaitMessage\\": "src/RandomWaitMessage"
         }
     },
     "minimum-stability": "dev",

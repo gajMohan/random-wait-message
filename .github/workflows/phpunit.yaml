@@ -15,6 +15,10 @@ jobs:
           php-version: '7.3'
           tools: composer, phpunit
 
-      - name: Check coding standards
+      - name: Composer Update
         run: |
-          composer update && ./vendor/bin/phpunit tests
+          composer update
+
+      - name: Unit Test
+        run: |
+          ./vendor/bin/phpunit
