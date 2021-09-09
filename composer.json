@@ -1,0 +1,14 @@
+{
+    "name": "gahmohan/random-wait-message",
+    "description": "A simple package to get random wait message",
+    "autoload": {
+        "psr-4": {
+            "gahMohan\\RandomWaitMEssage\\": "src/RandomWaitMessage"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
