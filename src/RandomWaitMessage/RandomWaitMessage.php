@@ -20,7 +20,6 @@ class RandomWaitMessage
             Message::newMessage('Put your headphones on and have a personal dance party', '🎶💃🕺'),
             Message::newMessage('Message a friend you haven\'t talked to in a while', '📱'),
             Message::newMessage('Read a book', '📖'),
-            Message::newMessage('Read a book', '📖'),
             Message::newMessage('Clean your desk', '🧹'),
             Message::newMessage('Do a workout', '🏋️‍️'),
             Message::newMessage('Meditate', '🧘‍️'),
@@ -42,6 +41,7 @@ class RandomWaitMessage
             Message::newMessage('Pretend you are a ninja', '🥷🏻'),
             Message::newMessage('Get a Beer', '🍺'),
             Message::newMessage('Climb a tree', '🌳'),
+            Message::newMessage('Clean your screen, its filthy', '🖥'),
         ];
     }
 
