@@ -42,6 +42,11 @@ class RandomWaitMessage
             Message::newMessage('Pretend you are a ninja', '🥷🏻'),
             Message::newMessage('Get a Beer', '🍺'),
             Message::newMessage('Climb a tree', '🌳'),
+            Message::newMessage('Draw smiley faces on all the things in your fridge', '😀'),
+            Message::newMessage('See how fast you can run around your house without bumping into something', '🏃🏽‍'),
+            Message::newMessage('Build a fort in your living room', '🏰‍'),
+            Message::newMessage('Try on every single pair of shoes in your house', '🥾‍'),
+            Message::newMessage('Figure out the best thing before sliced bread', '🍞‍'),
         ];
     }
 
